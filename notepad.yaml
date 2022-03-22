@@ -1,0 +1,18 @@
+# Created with YamlCreate.ps1 v2.1.2 $debug=AUSU.7-2-1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://objects.githubusercontent.com/github-production-release-asset-2e65be/33014811/be4ad405-5830-412f-ad1c-1b5d6f9238b6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220322T212713Z&X-Amz-Expires=300&X-Amz-Signature=eb1c774fcbea5aec24929291e651332da868474ac0e8ad2286bebbc3006e89ff&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=33014811&response-content-disposition=attachment%3B%20filename%3Dnpp.8.3.3.Installer.x64.exe&response-content-type=application%2Foctet-stream
+ManifestType: installer
+ManifestVersion: 1.1.0
+
